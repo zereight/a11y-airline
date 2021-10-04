@@ -1,91 +1,34 @@
-<p align="middle" >
-  <img width="100px;" src="./src/images/airplane.png"/>
-</p>
-<h2 align="middle">누구나 접근할 수 있는 항공사 웹사이트</h2>
-<p align="middle">항공사 웹사이트 컴포넌트의 스크린 리더 접근성 높이기</p>
-<p align="middle">
-  <img src="https://img.shields.io/badge/version-1.0.0-blue?style=flat-square" alt="template version"/>
-  <img src="https://img.shields.io/badge/language-html-red.svg?style=flat-square"/>
-  <img src="https://img.shields.io/badge/language-css-blue.svg?style=flat-square"/>
-  <img src="https://img.shields.io/badge/language-js-yellow.svg?style=flat-square"/>
-  <img src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square"/>
-</p>
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-<br/>
+## Getting Started
 
-## 🎯 요구사항1 - Spin Button: 승객수 입력하기
+First, run the development server:
 
-<img src="./src/images/spin_button_sample.png">
-
-- [ ] 최대 인원수는 3명까지만 가능하게 구현한다.
-- [ ] 실제 스크린 리더는 아래와 같이 읽을 수 있어야 한다.
-
-```
-성인 탑승자 한명 줄이기 버튼
-성인 1 텍스트 숫자만 수정
-성인 탑승자 한명 늘리기 버튼
-성인 승객 추가 2
-성인 탑승자 한명 늘리기 버튼
-성인 승객 추가 3
+```bash
+npm run dev
+# or
+yarn dev
 ```
 
-<br/>
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 🎯 요구사항2 - Carousel: 지금 떠나기 좋은 여행
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-<img src="./src/images/carousel_sample.png">
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-- [ ] 목록은 8개를 구현한다.
-- [ ] 실제 스크린 리더는 아래와 같이 읽을 수 있어야 한다.
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-```
-1. 지금 떠나기 좋은 여행
-2. 목록 8개 항목 포함 서울/인천 로스앤젤레스 일반석 왕복 1,481,800 대한민국 원 링크 목록 항목
-3. 다음 버튼 (사용 중지)
-4. 이전 버튼 (사용 중지)
-```
+## Learn More
 
-<br/>
+To learn more about Next.js, take a look at the following resources:
 
-## 🎯 요구사항3 - 메인 네비게이션
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-<img src="./src/images/navigation_sample.png">
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-- [ ] 실제 스크린 리더는 아래와 같이 읽을 수 있어야 한다.
+## Deploy on Vercel
 
-```
-탭
-목록 항목 예매 버튼 접힘
-목록 항목 공항 버튼 접힘
-목록 항목 기내 버튼 접힘
-목록 항목 스카이패스 버튼 접힘
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-(엔터키 누르기)
-
-스카이패스 버튼 펼쳐짐
-목록 5개 항목 포함 우수회원 혜택 링크 목록 항목
-```
-
-## 📝 코드리뷰시 체크 리스트
-
-- [ ] 불필요한 마크업은 없는가?
-- [ ] 웹표준에 어긋나는 마크업은 없는가?
-- [ ] 스크린리더가 예시와 같도록 읽는가?
-
-<br/>
-
-## 👏🏼 Contributing
-
-만약 미션 수행 중에 개선사항이 보인다면, 언제든 자유롭게 PR을 보내주세요.
-
-<br/>
-
-## 🐞 Bug Report
-
-버그를 발견한다면, [Issues](https://github.com/woowacourse/a11y-airline/issues)에 등록해주세요.
-
-<br/>
-
-## 📝 License
-
-This project is [MIT](https://github.com/woowacourse/a11y-airline/blob/main/LICENSE) licensed.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

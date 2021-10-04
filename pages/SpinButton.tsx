@@ -46,8 +46,6 @@ const SpinButton = () => {
         type="button"
         onClick={onClickDecreaseButton}
         aria-label="성인 탑승자 한명 줄이기 버튼"
-        aria-invalid={!canDecrease}
-        aria-errormessage={`최소 탑승 인원은 ${LIMIT_COUNT.MIN}명까지 입니다.`}
       >
         -
       </button>
@@ -66,8 +64,6 @@ const SpinButton = () => {
         type="button"
         onClick={onClickIncreaseButton}
         aria-label="성인 탑승자 한명 늘리기 버튼"
-        aria-invalid={!canIncrease}
-        aria-errormessage={`최대 탑승 인원은 ${LIMIT_COUNT.MAX}명까지 입니다.`}
       >
         +
       </button>
